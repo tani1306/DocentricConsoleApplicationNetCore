@@ -30,7 +30,7 @@ namespace DocentricConsoleApplicationNetCore
         /// Generates the report for the current template.
         /// </summary>
         /// <returns>File full name of the genarated report document.</returns>
-        public abstract string GenerateReport();
+        //public abstract string GenerateReport();
 
 
         /// <summary>

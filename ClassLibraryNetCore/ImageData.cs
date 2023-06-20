@@ -8,7 +8,10 @@ namespace ClassLibraryNetCore
 {
     public class ImageData
     {
-        public byte[] Data { get; set; }
+        public IReadOnlyCollection<byte> Data { get; set; } = Array.Empty<byte>();
         public bool IsDataAvailable { get; set; } = false;
+        public byte[] RiskMatrixPic { get; set; }
+        public byte[] RiskMatrixPicSpanish { get; set; }    
+        public byte[] RiskMatrixPicPortuguese { get; set; }
     }
 }

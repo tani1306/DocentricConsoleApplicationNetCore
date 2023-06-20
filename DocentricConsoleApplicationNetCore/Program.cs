@@ -14,13 +14,16 @@ namespace DocentricConsoleApplication
     {
         static void Main(string[] args)
         {
-            ImageGeneration imageGeneration = new ImageGeneration();
-            var file = imageGeneration.GenerateReport();
+            ImageGeneration imageGeneration = new();
+            var file = imageGeneration.GenerateWordReport();
             Console.WriteLine(file);
 
         }
 
 
     }
+
+   
+
 }
 
