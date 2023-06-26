@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Docentric.Documents, Version=6.1.41.1671, Culture=neutral, PublicKeyToken=c2a1f9cfb4f15acd, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocentricToolkitEngine.6.1.41\lib\net35\Docentric.Documents.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +46,9 @@
   <ItemGroup>
     <Compile Include="ImageData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
